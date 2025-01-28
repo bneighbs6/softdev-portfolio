@@ -1,4 +1,5 @@
 .App {
+  background-color: #282c34;
   text-align: center;
 }
 
@@ -42,16 +43,37 @@
   justify-content: space-between; /* Space between left and right headers */
   align-items: center; /* Center items vertically */
   width: 100%; /* Full width */
+  cursor: pointer;
 }
 
 .left-header {
   text-align: left; /* Aligns text to the left */
   width: 50%; /* Adjust width as needed */
   padding-left: 1%;
+  color: white; 
 }
 
 .right-header {
   text-align: right; /* Aligns text to the right */
   width: 50%; /* Adjust width as needed */
   padding-right: 1%;
+}
+
+.transparent-navbar {
+  background-color: transparent !important; /* Make the navbar transparent */
+  box-shadow: none; /* Remove any shadow if present */
+}
+
+.nav-link {
+  color: white; /* Set link color */
+  text-align: center;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+  background-color: #01dfdc;
 }
