@@ -3,12 +3,17 @@ import NavigationBar from "./NavigationBar";
 
 function Header() {
     return (
-        <>
-            <h1>This is the header.</h1>
-            <p>We want brand name (Brett Web Dev?) to be on the left side of Header.</p>
-            <NavigationBar />
-        </>
-    )
+      <div className="header-container"> {/* Added a parent div for flexbox */}
+        <div className="left-header">
+          <h3>
+            brettwebdev.com
+          </h3>
+        </div>
+        <div className="right-header">
+          <NavigationBar />
+        </div>
+      </div>
+    );
 }
 
-export default Header; 
+export default Header;

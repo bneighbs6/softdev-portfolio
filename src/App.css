@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+  .left-header {
+    text-align: left; /* Aligns text to the left */
+    float: left; /* Positions the element to the left */
+    width: 50%; /* Adjust width as needed */
+}
+
+.right-header {
+  text-align: right; 
+  float: right; 
+  width: 50%;
+}
