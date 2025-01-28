@@ -37,14 +37,21 @@
   }
 }
 
-  .left-header {
-    text-align: left; /* Aligns text to the left */
-    float: left; /* Positions the element to the left */
-    width: 50%; /* Adjust width as needed */
+.header-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between left and right headers */
+  align-items: center; /* Center items vertically */
+  width: 100%; /* Full width */
+}
+
+.left-header {
+  text-align: left; /* Aligns text to the left */
+  width: 50%; /* Adjust width as needed */
+  padding-left: 1%;
 }
 
 .right-header {
-  text-align: right; 
-  float: right; 
-  width: 50%;
+  text-align: right; /* Aligns text to the right */
+  width: 50%; /* Adjust width as needed */
+  padding-right: 1%;
 }
