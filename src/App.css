@@ -38,6 +38,8 @@
   }
 }
 
+/* Header & Navbar CSS */
+
 .header-container {
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space between left and right headers */
@@ -76,4 +78,10 @@
 
 .nav-link:hover {
   background-color: #01dfdc;
+}
+
+/* Intro CSS */
+
+.intro {
+  color: white; 
 }
