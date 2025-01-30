@@ -40,6 +40,15 @@
 
 /* Header & Navbar CSS */
 
+.headerAndIntroBackground {
+  background-image: url("../src/images/code-background.jpg"); /* Ensure the path is correct */
+  background-size: cover; /* This will cover the entire header area */
+  background-position: center; /* This will center the image */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack header and intro vertically */
+  color: white; /* Optional: change text color for better visibility */
+}
+
 .header-container {
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space between left and right headers */
@@ -52,7 +61,7 @@
   text-align: left; /* Aligns text to the left */
   width: 50%; /* Adjust width as needed */
   padding-left: 1%;
-  color: white; 
+  color: white;
 }
 
 .right-header {
@@ -83,5 +92,5 @@
 /* Intro CSS */
 
 .intro {
-  color: white; 
+  color: white;
 }
