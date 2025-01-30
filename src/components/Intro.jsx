@@ -12,6 +12,7 @@ function Intro() {
           experiences. Explore my work and let’s discuss your project!
         </h2>
       </div>
+      <button className="projects-btn">Projects</button>
     </>
   );
 }
