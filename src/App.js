@@ -1,6 +1,7 @@
 import './App.css';
 import Header from "../src/components/Header";
 import Intro from './components/Intro';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
         <div className="intro">
           <Intro />
         </div>
-      </div>
+        </div>
+        <div className="about-me">
+          <AboutMe />
+        </div>
     </div>
   );
 }
