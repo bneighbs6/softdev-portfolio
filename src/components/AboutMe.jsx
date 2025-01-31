@@ -10,7 +10,7 @@ function AboutMe() {
           API implementation, Node.js, Express, PostgreSQL, and frameworks like
           Bootstrap. Experience in the strength and conditioning field creates
           the ability to adapt quickly to new information, and apply skills to
-          handle the new information efficiently.
+          handle that information efficiently.
         </h5>
       </div>
     );
