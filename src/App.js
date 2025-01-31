@@ -2,6 +2,7 @@ import './App.css';
 import Header from "../src/components/Header";
 import Intro from './components/Intro';
 import AboutMe from './components/AboutMe';
+import Technologies from './components/Technologies';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </div>
         <div className="about-me">
           <AboutMe />
+        </div>
+        <div className='technologies'>
+          <Technologies />
         </div>
     </div>
   );
