@@ -14,7 +14,12 @@ function Projects() {
             application is designed to enhance user experience and streamline
             service offerings.
             <br />
-            <a className="project-link" href="https://bneighborlylawns.onrender.com/">
+            <a
+              className="project-link"
+              href="https://bneighborlylawns.onrender.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Frontend Lawn Service Website
             </a>
           </p>
@@ -22,7 +27,12 @@ function Projects() {
             Full-stack web application designed for restaurants to be able to
             create, read, update, and delete reservations from their system.
             <br />
-            <a className="project-link" href="https://capstone-restaurant-reservation-ypom.onrender.com/dashboard">
+            <a
+              className="project-link"
+              href="https://capstone-restaurant-reservation-ypom.onrender.com/dashboard"
+              target="_blank"
+              rel="noopenner noreferrer"
+            >
               Full-Stack Restaurant Reservation Application
             </a>
           </p>
@@ -32,7 +42,12 @@ function Projects() {
             deletion. This application was programmed using React, HTML5, CSS,
             and Bootstrap to streamline frontend development.
             <br />
-            <a className="project-link" href="https://react-recipe-app-5i4t.onrender.com/">
+            <a
+              className="project-link"
+              href="https://react-recipe-app-5i4t.onrender.com/"
+              target="_blank"
+              rel="noopenner noreferrer"
+            >
               Recipe Application
             </a>
           </p>
