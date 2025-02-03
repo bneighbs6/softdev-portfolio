@@ -159,6 +159,8 @@
 
 /* Lawn Screenshot CSS */
 
-.lawn-screenshot {
-  width: 100%; 
+.project-screenshot {
+  width: 100%; /* or a specific width like 300px */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 300px; /* Set a maximum width */
 }
