@@ -1,6 +1,7 @@
 .App {
   background-color: #282c34;
   text-align: center;
+  color: white; 
 }
 
 .App-logo {
@@ -22,7 +23,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -46,7 +46,6 @@
   background-position: center; 
   display: flex; /* Use flexbox */
   flex-direction: column; /* Stack header and intro vertically */
-  color: white; /* Optional: change text color for better visibility */
 }
 
 .header-container {
@@ -61,7 +60,6 @@
   text-align: left; /* Aligns text to the left */
   width: 50%; /* Adjust width as needed */
   padding-left: 1%;
-  color: white;
 }
 
 .right-header {
@@ -89,14 +87,7 @@
   background-color: #01dfdc;
 }
 
-/* Intro CSS */
-
-.intro {
-  color: white;
-}
-
-
-/* CSS */
+/* Projects Button CSS */
 .projects-btn {
   padding: 0.6em 2em;
   border: none;
@@ -162,10 +153,4 @@
   left: 0;
   top: 0;
   border-radius: 10px;
-}
-
-/* About Me CSS */
-
-.about-me {
-  color: white; 
 }
