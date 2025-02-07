@@ -164,3 +164,27 @@
   height: auto; /* Maintain aspect ratio */
   max-width: 300px; /* Set a maximum width */
 }
+
+/* Let's Connect CSS */
+
+.connect-container {
+  text-align: center; /* Center the text */
+  margin: 20px 0; /* Add some vertical margin */
+}
+
+.connect-icons {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the icons */
+  gap: 15px; /* Space between icons */
+  margin-top: 10px; /* Space above the icons */
+}
+
+.connect-icons a {
+  font-size: 24px; /* Increase icon size */
+  color: #333; /* Default icon color */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.connect-icons a:hover {
+  color: #0073e6; /* Change color on hover */
+}
