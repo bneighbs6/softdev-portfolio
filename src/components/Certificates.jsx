@@ -2,7 +2,7 @@ import React from "react";
 
 function Certificates() {
     return (
-      <div>
+      <div id="certificates">
         <h1>Certificates Section</h1>
         <ul>
           <li>Software Engineering - Chegg Skills</li>

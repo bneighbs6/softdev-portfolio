@@ -2,7 +2,7 @@ import React from "react";
 
 function Connect() {
     return (
-      <div className="connect-container">
+      <div className="connect-container" id="connect">
         <h3>Let's Connect</h3>
         <p>via Email, LinkedIn, GitHub</p>
         <div className="connect-icons">

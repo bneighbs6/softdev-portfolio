@@ -6,8 +6,8 @@ import { Card, Button, Row, Col } from "react-bootstrap";
 
 function Projects() {
     return (
-      <div className="projects">
-        <article id="projects">
+      <div className="projects" id="projects">
+        <article>
           <h2 className="major">Projects</h2>
 
           {/* Bootstrap Row for Cards */}

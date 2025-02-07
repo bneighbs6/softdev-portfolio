@@ -49,7 +49,7 @@ function NavigationBar() {
 
           <Nav.Link
             as={Link}
-            to="contact"
+            to="connect"
             smooth={true}
             duration={500}
             className="nav-link"

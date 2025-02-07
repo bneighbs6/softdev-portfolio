@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe() {
     return (
-      <div>
+      <div id="about">
         <h3>About Me Section</h3>
         <h5>
           Full-stack software engineer proficient in JavaScript for both
