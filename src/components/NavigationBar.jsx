@@ -1,7 +1,9 @@
 import Container from "react-bootstrap/Container";
-import { Nav, Navbar } from "react-bootstrap";
+import { Dropdown, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-scroll"; // Import Link from react-scroll
 import { useMediaQuery } from "react-responsive";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function NavigationBar() {
   const isMobile = useMediaQuery({ query: "(max-width: 680px)" });
@@ -9,7 +11,19 @@ function NavigationBar() {
     <Navbar expand="md" variant="light" className="transparent-navbar"> {/* Add custom class */}
       <Container>
         {isMobile ? (
-          <Nav.Item>Mobile is active</Nav.Item>
+          <Dropdown variant="light">
+            <Dropdown.Toggle>
+              <FontAwesomeIcon icon={faBars} />
+              {" "}Menu
+            </Dropdown.Toggle>
+            <Dropdown.Menu>
+              <Dropdown.Item 
+              as={Link} 
+              to="about"
+              smooth={true}
+              >About</Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
         ) : (        <Nav className="mx-auto">
           <Nav.Link
             as={Link}
