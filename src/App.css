@@ -49,25 +49,27 @@
 }
 
 .header-container {
-  display: flex; /* Use flexbox */
-  justify-content: space-between; /* Space between left and right headers */
-  align-items: center; /* Center items vertically */
-  width: 100%; /* Full width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   cursor: pointer;
-  border: 10px solid white; 
+  border: 10px solid white;
+  box-sizing: border-box; /* include border in width */
 }
 
 .left-header {
   text-align: left; /* Aligns text to the left */
-  width: 50%; /* Adjust width as needed */
-  padding-left: 1%;
+  margin-left: 2%;
+  padding-left: 0;
 }
 
 .right-header {
-  text-align: right; /* Aligns text to the right */
-  width: 50%; /* Adjust width as needed */
-  padding-right: 1%;
+  text-align: right;
+  margin-right: 2%; /* push the element away from the edge */
+  padding-right: 0; /* remove padding that can misalign the border */
 }
+
 
 .transparent-navbar {
   background-color: transparent !important; /* Make the navbar transparent */

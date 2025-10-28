@@ -1,12 +1,16 @@
 import Container from "react-bootstrap/Container";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-scroll"; // Import Link from react-scroll
+import { useMediaQuery } from "react-responsive";
 
 function NavigationBar() {
+  const isMobile = useMediaQuery({ query: "(max-width: 680px)" });
   return (
     <Navbar expand="md" variant="light" className="transparent-navbar"> {/* Add custom class */}
       <Container>
-        <Nav className="mx-auto">
+        {isMobile ? (
+          <Nav.Item>Mobile is active</Nav.Item>
+        ) : (        <Nav className="mx-auto">
           <Nav.Link
             as={Link}
             to="about"
@@ -56,7 +60,7 @@ function NavigationBar() {
           >
             Let's Connect
           </Nav.Link>
-        </Nav>
+        </Nav>)}
       </Container>
     </Navbar>
   );

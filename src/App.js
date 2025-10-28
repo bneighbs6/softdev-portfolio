@@ -9,7 +9,7 @@ import Connect from './components/Connect';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App xs-col-12">
       <div className="headerAndIntroBackground">
         <div className="header">
           <Header />
