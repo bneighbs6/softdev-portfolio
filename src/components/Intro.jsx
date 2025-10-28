@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 function Intro() {
   return (
-    <>
+    <div id="intro">
       <img src={headshot} alt="adult male smiling" />
       <div>
         <h2>
@@ -19,7 +19,7 @@ function Intro() {
           Projects
         </button>
       </Nav.Link>
-    </>
+    </div>
   );
 }
 

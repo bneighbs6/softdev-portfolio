@@ -54,6 +54,7 @@
   align-items: center; /* Center items vertically */
   width: 100%; /* Full width */
   cursor: pointer;
+  border: 10px solid white; 
 }
 
 .left-header {
@@ -90,6 +91,12 @@ Commented out nav-link:hover b/c it was messing with projects-btn style. Need to
 /* .nav-link:hover {
   background-color: #111
 } */
+
+/* Intro CSS */
+
+#intro {
+  border: 10px solid white; 
+}
 
 /* Projects Button CSS */
 .projects-btn {
@@ -217,6 +224,23 @@ Commented out nav-link:hover b/c it was messing with projects-btn style. Need to
 
 /* Projects CSS */
 
+/* Technologies CSS */
+
+#technologies {
+  border: 10px solid white; 
+}
+
+/* Certificates CSS */
+
+#certificates {
+  border: 10px solid white; 
+}
+
+/* Projects CSS */
+#projects {
+  border: 10px solid white; 
+}
+
 /* Lawn Screenshot CSS */
 
 .project-screenshot {
@@ -226,6 +250,10 @@ Commented out nav-link:hover b/c it was messing with projects-btn style. Need to
 }
 
 /* Let's Connect CSS */
+
+#connect {
+  border: 10px solid white; 
+}
 
 .connect-container {
   text-align: center; /* Center the text */
@@ -258,10 +286,15 @@ Commented out nav-link:hover b/c it was messing with projects-btn style. Need to
   text-align: center;
   padding: 2rem;
   gap: 1rem; /* spaces between icon, h3, h5 */
+  border: 10px solid white; 
 }
 
 .fa-solid.fa-circle-user {
   font-size: 4rem; /* adjust size as needed */
   display: block;
   margin: 0 auto 0 auto; /* centers and adds space below */
+}
+
+#about > h5 { 
+  margin: none; 
 }
