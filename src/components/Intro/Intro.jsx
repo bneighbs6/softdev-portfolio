@@ -1,7 +1,8 @@
 import React from "react";
-import headshot from "../images/headshot.jpeg";
+import headshot from "../../images/headshot.jpeg";
 import { Nav } from "react-bootstrap";
 import { Link } from "react-scroll";
+import "./Intro.css";
 
 
 function Intro() {

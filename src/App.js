@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header/Header';
-import Intro from './components/Intro';
+import Intro from './components/Intro/Intro';
 import AboutMe from './components/AboutMe';
 import Technologies from './components/Technologies';
 import Certificates from './components/Certificates';
