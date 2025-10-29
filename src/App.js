@@ -5,7 +5,7 @@ import AboutMe from './components/AboutMe';
 import Technologies from './components/Technologies/Technologies';
 import Certificates from './components/Certificate/Certificates';
 import Projects from './components/Projects/Projects';
-import Connect from './components/Connect';
+import Connect from './components/Connect/Connect';
 
 
 function App() {

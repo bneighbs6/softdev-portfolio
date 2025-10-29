@@ -1,0 +1,27 @@
+/* Let's Connect CSS */
+
+#connect {
+    border: 10px solid white; 
+  }
+  
+  .connect-container {
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Add some vertical margin */
+  }
+  
+  .connect-icons {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the icons */
+    gap: 15px; /* Space between icons */
+    margin-top: 10px; /* Space above the icons */
+  }
+  
+  .connect-icons a {
+    font-size: 24px; /* Increase icon size */
+    color: #003f85; /* Default icon color */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .connect-icons a:hover {
+    color: #444; /* Change color on hover */
+  }
