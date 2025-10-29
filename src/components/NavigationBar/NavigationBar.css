@@ -11,3 +11,11 @@
     text-decoration: none;
     transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
+
+/* TODO: 
+Commented out nav-link:hover b/c it was messing with projects-btn style. Need to figure out why  
+*/
+
+/* .nav-link:hover {
+  background-color: #111
+} */

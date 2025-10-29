@@ -44,56 +44,6 @@ html {
   }
 }
 
-/* Header & Navbar CSS */
-
-.headerAndIntroBackground {
-  background-image: url("../src/images/code-background.jpg"); 
-  background-size: cover; /* This will cover the entire header area */
-  background-position: center; 
-  display: flex; /* Use flexbox */
-  flex-direction: column; /* Stack header and intro vertically */
-}
-
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  cursor: pointer;
-  border: 10px solid white;
-  box-sizing: border-box; /* include border in width */
-}
-
-.left-header {
-  text-align: left; /* Aligns text to the left */
-  margin-left: 2%;
-  padding-left: 0;
-}
-
-.right-header {
-  text-align: right;
-  margin-right: 2%; /* push the element away from the edge */
-  padding-right: 0; /* remove padding that can misalign the border */
-}
-
-.nav-link {
-  color: white; /* Set link color */
-  text-align: center;
-  padding: 10px 20px;
-  margin: 5px;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
-}
-
-/* TODO: 
-Commented out nav-link:hover b/c it was messing with projects-btn style. Need to figure out why  
-*/
-
-/* .nav-link:hover {
-  background-color: #111
-} */
-
 /* Intro CSS */
 
 #intro {

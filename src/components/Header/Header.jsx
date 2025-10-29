@@ -1,5 +1,6 @@
 import React from "react";
-import NavigationBar from "./NavigationBar/NavigationBar";
+import NavigationBar from "../NavigationBar/NavigationBar";
+import "./Header.css";
 
 function Header() {
     return (
