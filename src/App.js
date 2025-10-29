@@ -7,6 +7,7 @@ import Certificates from './components/Certificates';
 import Projects from './components/Projects';
 import Connect from './components/Connect';
 
+
 function App() {
   return (
     <div className="App xs-col-12">
@@ -19,31 +20,31 @@ function App() {
         </div>
       </div>
 
-      <div className="about-me-container">
+      <div id="about" className="about-me-container">
         <div className="about-me">
           <AboutMe />
         </div>
       </div>
 
-      <div className="techonologies-container">
+      <div id="technologies" className="techonologies-container">
         <div className="technologies">
           <Technologies />
         </div>
       </div>
 
-      <div className="certficates-container">
+      <div id="certificates" className="certficates-container">
         <div className="certificates">
           <Certificates />
         </div>
       </div>
 
-      <div className="projects-container">
+      <div id="projects" className="projects-container">
         <div className="projects">
           <Projects />
         </div>
       </div>
 
-      <div className="connect-container">
+      <div id="connect" className="connect-container">
         <div className="connect">
           <Connect />
         </div>
@@ -51,5 +52,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

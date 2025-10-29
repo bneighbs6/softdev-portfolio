@@ -4,6 +4,12 @@
   color: white; 
 }
 
+html {
+  scroll-behavior: smooth;
+  transition-duration: 500ms;
+  /* Need to find a way to lengthen the amount of time for smooth transitions */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -68,12 +74,6 @@
   text-align: right;
   margin-right: 2%; /* push the element away from the edge */
   padding-right: 0; /* remove padding that can misalign the border */
-}
-
-
-.transparent-navbar {
-  background-color: transparent !important; /* Make the navbar transparent */
-  box-shadow: none; /* Remove any shadow if present */
 }
 
 .nav-link {
