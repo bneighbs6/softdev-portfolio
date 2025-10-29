@@ -1,0 +1,13 @@
+.navbar-dropdown {
+    background-color: transparent;
+}
+
+.navbar .nav-link {
+    color: white; /* Set link color */
+    text-align: center;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}

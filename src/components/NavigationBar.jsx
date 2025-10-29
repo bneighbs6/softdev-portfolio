@@ -3,16 +3,17 @@ import { Nav, Navbar, Dropdown } from "react-bootstrap";
 import { useMediaQuery } from "react-responsive";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import "./NavigationBar.css";
 
 function NavigationBar() {
-  const isMobile = useMediaQuery({ query: "(max-width: 680px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 780px)" });
 
   return (
-    <Navbar expand="md" bg="light" variant="light" fixed="top">
+    <Navbar expand="sm">
       <Container className="navbar-container">
         {isMobile ? (
           <Dropdown>
-            <Dropdown.Toggle variant="light" className="navbar-dropdown">
+            <Dropdown.Toggle className="navbar-dropdown">
               <FontAwesomeIcon icon={faBars} /> Menu
             </Dropdown.Toggle>
             <Dropdown.Menu align="end">
