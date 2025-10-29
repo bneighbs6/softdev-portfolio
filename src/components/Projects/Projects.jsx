@@ -1,8 +1,9 @@
 import React from "react";
-import lawnScreenshot from "../images/lawn-screenshot.png";
-import restaurantScreenshot from "../images/restaurant-screenshot.png";
-import recipeScreenshot from '../images/recipe-screenshot.png';
+import lawnScreenshot from "../../images/lawn-screenshot.png";
+import restaurantScreenshot from "../../images/restaurant-screenshot.png";
+import recipeScreenshot from '../../images/recipe-screenshot.png';
 import { Card, Button, Row, Col } from "react-bootstrap";
+import "./Projects.css";
 
 function Projects() {
     return (

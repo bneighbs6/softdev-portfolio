@@ -4,7 +4,7 @@ import Intro from './components/Intro/Intro';
 import AboutMe from './components/AboutMe';
 import Technologies from './components/Technologies';
 import Certificates from './components/Certificates';
-import Projects from './components/Projects';
+import Projects from './components/Projects/Projects';
 import Connect from './components/Connect';
 
 
