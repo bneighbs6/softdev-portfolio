@@ -51,25 +51,3 @@ html {
   height: auto; /* Maintain aspect ratio */
   max-width: 300px; /* Set a maximum width */
 }
-
-/* About Me Section */
-
-#about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 2rem;
-  gap: 1rem; /* spaces between icon, h3, h5 */
-  border: 10px solid white; 
-}
-
-.fa-solid.fa-circle-user {
-  font-size: 4rem; /* adjust size as needed */
-  display: block;
-  margin: 0 auto 0 auto; /* centers and adds space below */
-}
-
-#about > h5 { 
-  margin: none; 
-}
