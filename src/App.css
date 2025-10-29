@@ -44,17 +44,6 @@ html {
   }
 }
 
-/* Certificates CSS */
-
-#certificates {
-  border: 10px solid white; 
-}
-
-/* Projects CSS */
-#projects {
-  border: 10px solid white; 
-}
-
 /* Lawn Screenshot CSS */
 
 .project-screenshot {
