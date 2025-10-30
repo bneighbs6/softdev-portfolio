@@ -1,7 +1,4 @@
-.navbar-dropdown {
-    background-color: transparent;
-}
-
+/* This will affect each link in the Navbar on desktop screen size */
 .navbar .nav-link {
     color: white; /* Set link color */
     text-align: center;
@@ -12,10 +9,19 @@
     transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
-/* TODO: 
-Commented out nav-link:hover b/c it was messing with projects-btn style. Need to figure out why  
-*/
+/* This will affect the color of each link when user hovers over it in the Navbar on desktop screen size */
+.navbar .nav-link:hover {
+  color: #999
+} 
 
-/* .nav-link:hover {
-  background-color: #111
-} */
+/* This will affect the dropdown toggle on screens < 813px wide */
+@media screen and (max-width: 813px) {
+  .dropdown > .dropdown-toggle-brett {
+    background-color: #282c34; 
+  }
+
+  /* I want this to change the background color of the dropdown item when user clicks on it */
+  .dropdown > .dropdown-menu > .dropdown-item:active {
+    background-color: #282c34;
+  }
+}

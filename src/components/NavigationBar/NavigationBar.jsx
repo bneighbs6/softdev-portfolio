@@ -6,15 +6,15 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./NavigationBar.css";
 
 function NavigationBar() {
-  const isMobile = useMediaQuery({ query: "(max-width: 780px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 813px)" });
 
   return (
     <Navbar expand="sm">
       <Container className="navbar-container">
         {isMobile ? (
           <Dropdown>
-            <Dropdown.Toggle className="navbar-dropdown">
-              <FontAwesomeIcon icon={faBars} /> Menu
+            <Dropdown.Toggle variant="dark" className="dropdown-toggle-brett">
+              <FontAwesomeIcon icon={faBars} /> 
             </Dropdown.Toggle>
             <Dropdown.Menu align="end">
               <Dropdown.Item href="#about">About</Dropdown.Item>
