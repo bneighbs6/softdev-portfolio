@@ -24,27 +24,27 @@ function Projects() {
                 <Card.Body>
                   <Card.Title>B Neighborly Lawn Services</Card.Title>
                   <Card.Text>
-                    Frontend web application for a local small business specializing
-                    in lawn care services. Utilizing JavaScript, React, and
-                    Bootstrap, the application is designed to enhance user
-                    experience and streamline service offerings.
+                    Frontend web application for a local small business
+                    specializing in lawn care services. Utilizing JavaScript,
+                    React, and Bootstrap, the application is designed to enhance
+                    user experience and streamline service offerings.
                   </Card.Text>
-                  <a
+                  <Button
                     className="project-link"
                     href="https://bneighborlylawns.onrender.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button>Live Demo</Button>
-                  </a>
-                  <a
+                    Live Demo
+                  </Button>
+                  <Button
                     className="project-link"
                     href="https://github.com/bneighbs6/b-neighborly-lawn"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button>Source Code</Button>
-                  </a>
+                    Source Code
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -62,26 +62,26 @@ function Projects() {
                     Full-Stack Restaurant Reservation Application
                   </Card.Title>
                   <Card.Text>
-                    Full-stack web application designed for restaurants to be able
-                    to create, read, update, and delete reservations from their
-                    system.
+                    Full-stack web application designed for restaurants to be
+                    able to create, read, update, and delete reservations from
+                    their system.
                   </Card.Text>
-                  <a
+                  <Button
                     className="project-link"
                     href="https://capstone-restaurant-reservation-ypom.onrender.com/dashboard"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button>Live Demo</Button>
-                  </a>
-                  <a
+                    Live Demo
+                  </Button>
+                  <Button
                     className="project-link"
                     href="https://github.com/bneighbs6/capstone-restaurant-reservation"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button>Source Code</Button>
-                  </a>
+                    Source Code
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -98,26 +98,27 @@ function Projects() {
                   <Card.Title>Recipe Application</Card.Title>
                   <Card.Text>
                     Developed a user-friendly React application enabling recipe
-                    management functionalities like creation, viewing, editing, and
-                    deletion. This application was programmed using React, HTML5,
-                    CSS, and Bootstrap to streamline frontend development.
+                    management functionalities like creation, viewing, editing,
+                    and deletion. This application was programmed using React,
+                    HTML5, CSS, and Bootstrap to streamline frontend
+                    development.
                   </Card.Text>
-                  <a
+                  <Button
                     className="project-link"
                     href="https://react-recipe-app-5i4t.onrender.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button>Live Demo</Button>
-                  </a>
-                  <a
+                    Live Demo
+                  </Button>
+                  <Button
                     className="project-link"
                     href="https://github.com/bneighbs6/Recipe_App"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button>Source Code</Button>
-                  </a>
+                    Source Code
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
