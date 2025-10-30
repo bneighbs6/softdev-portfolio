@@ -83,6 +83,6 @@
 /* Project Links CSS */
 
 .project-link {
-  background-color: #282828;
-  border: none;
+  background-color: #282828 !important;
+  border: none !important;
 }
