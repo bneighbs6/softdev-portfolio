@@ -8,14 +8,14 @@ import "./Projects.css";
 function Projects() {
     return (
       <div className="projects" id="projects">
-        <article>
-          <h2 className="major">Projects</h2>
+        <div className="projects-container">
+          <h2>Projects</h2>
 
           {/* Bootstrap Row for Cards */}
-          <Row>
+          <Row className="align-items-stretch">
             {/* Lawn Service Card */}
-            <Col xs={12} md={4} className="mb-4">
-              <Card className="lawn-card">
+            <Col xs={12} md={4} className="mb-4 d-flex">
+              <Card className="universal-card h-100 w-100">
                 <Card.Img
                   variant="top"
                   src={lawnScreenshot}
@@ -50,8 +50,8 @@ function Projects() {
             </Col>
 
             {/* Restaurant Card */}
-            <Col xs={12} md={4} className="mb-4">
-              <Card className="restaurant-card">
+            <Col xs={12} md={4} className="mb-4 d-flex">
+              <Card className="universal-card h-100 w-100">
                 <Card.Img
                   variant="top"
                   src={restaurantScreenshot}
@@ -87,8 +87,8 @@ function Projects() {
             </Col>
 
             {/* Recipe Card */}
-            <Col xs={12} md={4} className="mb-4">
-              <Card className="recipe-card">
+            <Col xs={12} md={4} className="mb-4 d-flex">
+              <Card className="universal-card h-100 w-100">
                 <Card.Img
                   variant="top"
                   src={recipeScreenshot}
@@ -123,7 +123,7 @@ function Projects() {
               </Card>
             </Col>
           </Row>
-        </article>
+        </div>
       </div>
     );
 }
