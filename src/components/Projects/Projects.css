@@ -58,13 +58,12 @@
 }
 
 /* Section Border */
-#projects {
-  border: 10px solid white;
-}
+/* #projects {
+  padding: 5px;
+} */
 
 /* Projects Container */
 .projects-container {
-  border: 5px dotted gray;
   display: inline-flex;
   flex-direction: column;
   align-items: stretch;
