@@ -3,3 +3,9 @@
 #certificates {
     border: 10px solid white; 
   }
+
+.certificate-icon {
+  align-self: center;
+  font-size: 50px; 
+  margin: 5px; 
+}
