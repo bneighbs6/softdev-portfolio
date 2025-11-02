@@ -4,11 +4,16 @@ import restaurantScreenshot from "../../images/restaurant-screenshot.png";
 import recipeScreenshot from '../../images/recipe-screenshot.png';
 import { Card, Button, Row, Col } from "react-bootstrap";
 import "./Projects.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDiagramProject, faListCheck, faRocket } from "@fortawesome/free-solid-svg-icons";
 
 function Projects() {
     return (
       <div className="projects" id="projects">
         <div className="projects-container">
+          {/* <FontAwesomeIcon icon={faRocket} className="rocket-ship" /> */}
+          {/* <FontAwesomeIcon icon={faDiagramProject} className="diagram-project-icon" /> */}
+          <FontAwesomeIcon icon={faListCheck} className="list-check" />
           <h2>Projects</h2>
 
           {/* Bootstrap Row for Cards */}

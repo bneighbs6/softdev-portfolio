@@ -97,6 +97,24 @@
   text-align: center;
 }
 
+.rocket-ship {
+  align-self: center;
+  font-size: 50px; 
+  margin: 5px; 
+}
+
+.diagram-project-icon {
+  align-self: center;
+  font-size: 50px; 
+  margin: 5px; 
+}
+
+.list-check {
+  align-self: center;
+  font-size: 50px; 
+  margin: 5px; 
+}
+
 
 
 /* Small Screens */
