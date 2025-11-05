@@ -7,7 +7,7 @@
     text-align: center;
     padding: 2rem;
     gap: 1rem; /* spaces between icon, h3, h5 */
-    border: 10px solid white; 
+    background-color: black;
   }
   
   .fa-solid.fa-circle-user {

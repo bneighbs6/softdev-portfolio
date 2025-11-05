@@ -14,8 +14,6 @@
     align-items: center;
     width: 100%;
     cursor: pointer;
-    border: 10px solid white;
-    box-sizing: border-box; /* include border in width */
   }
   
   .left-header {

@@ -1,5 +1,9 @@
 /* Intro CSS */
 
-#intro {
-    border: 10px solid white; 
-  }
+/* #intro {
+    
+  } */
+
+.intro-description-div {
+  background-color: #282c34;
+}
