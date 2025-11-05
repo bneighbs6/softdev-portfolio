@@ -5,7 +5,7 @@
   align-items: center;
   text-align: center;
   padding: 2rem;
-  gap: 1rem; /* spaces between icon, h3, h5 */
+  gap: 1.5rem; 
 }
 
 /* Projects Button CSS */
@@ -72,9 +72,10 @@
 
 /* Projects Container */
 .projects-container {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
+  gap: .5rem;
 }
 
 /* Project Screenshot CSS */
@@ -115,7 +116,7 @@
   font-size: 4rem; /* adjust size as needed */
   display: block;
   margin: 0 auto 0 auto; /* centers and adds space below */
-}
+} 
 
 .list-check {
   font-size: 4rem; /* adjust size as needed */
