@@ -14,7 +14,7 @@ function Intro() {
           experiences. Explore my work and let’s discuss your project!
         </h2>
         <Nav.Link as={Link} to="projects" smooth={true} duration={500}>
-          <button className="projects-btn">Projects</button>
+          <button className="projects-btn"><span className="projects-word">P  r  o  j  e  c  t  s</span></button>
         </Nav.Link>
       </div>
     </div>

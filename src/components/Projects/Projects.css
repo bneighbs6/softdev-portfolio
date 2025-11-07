@@ -10,7 +10,11 @@
 
 /* Projects Button CSS */
 .projects-btn {
-  padding: 0.6em 2em;
+  padding: 1em 2em;       /* more vertical padding for a bigger button */
+  min-width: 200px;       /* ensures button isn't too small */
+  width: 80%;             /* takes up most of the container */
+  max-width: 400px;       /* optional max width to prevent it from being too huge on big screens */
+  font-size: 1.2rem;      /* larger text for emphasis */
   border: none;
   outline: none;
   color: #fff;
@@ -21,7 +25,10 @@
   border-radius: 10px;
   user-select: none;
   touch-action: manipulation;
+  display: block;
+  margin: 1rem auto;      /* centers the button horizontally */
 }
+
 
 .projects-btn::before {
   content: "";
@@ -30,40 +37,63 @@
   left: -2px;
   width: calc(100% + 4px);
   height: calc(100% + 4px);
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
-  background-size: 400%;
-  filter: blur(5px);
-  animation: glowing-button-85 20s linear infinite;
+  background: #ff00c8; /* neon pink/purple */
+  filter: blur(10px);
+  opacity: 0.7;
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
   z-index: -1;
+}
+
+.projects-btn:hover::before {
+  opacity: 1;
+  filter: blur(15px);
 }
 
 .projects-btn::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: #222;
+  background: #222; /* slightly lighter dark background */
   border-radius: 10px;
   z-index: -1;
 }
+
 
 @keyframes glowing-button-85 {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
+
+/* Project Word CSS to Match Project Button */
+.projects-word {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #ff00c8,
+    0 0 20px #ff00c8,
+    0 0 40px #ff00c8;
+  animation: neon-pulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes neon-pulse {
+  from {
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #ff00c8,
+      0 0 20px #ff00c8,
+      0 0 40px #ff00c8;
+  }
+  to {
+    text-shadow:
+      0 0 10px #fff,
+      0 0 20px #ff00c8,
+      0 0 30px #ff00c8,
+      0 0 60px #ff00c8;
+  }
+}
+
 
 /* Section Border */
 /* #projects {
