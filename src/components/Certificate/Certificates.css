@@ -7,7 +7,9 @@
   text-align: center;
   padding: 2rem;
   gap: 1rem; /* spaces between icon, h3, h5 */
-    background-color: black;
+  background-color: black;
+  border: 1px solid black; 
+  border-radius: 10px;
   }
 
 .certificate-icon {
