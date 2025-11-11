@@ -5,38 +5,42 @@ import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { Row, Col, Card } from "react-bootstrap";
 
 function Technologies() {
-    return (
-      <div id="technologies">
-        <div className="techonologies-container">
-          <FontAwesomeIcon icon={faLaptopCode} className="techonology-icon" />
-          <h3>Technologies</h3>
-          <div className="frontend-technologies-container">
-            <Row className="align-center-stretch">
-              <Col xs={12} md={4} className="mb-4 d-flex">
-                <Card className="universal-card h-100 w-100">
-                  <Card.Body>
-                    <Card.Title>Frontend Technologies</Card.Title>
-                    <Card.Text>
-                      HTML, CSS, Bootstrap CSS, Javascript, React
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col className="mb-4 d-flex">
-                <Card className="universal-card h-100 w-100">
-                  <Card.Body>
-                    <Card.Title>Backend Technologies</Card.Title>
-                    <Card.Text>
-                      Node.js, Express, PostgreSQL, Rest API
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-          </div>
-        </div>
+  return (
+    <div id="technologies">
+      <div className="technologies-container">
+        <FontAwesomeIcon icon={faLaptopCode} className="technology-icon" />
+        <h2>Technologies</h2>
+
+        <Row className="align-items-stretch">
+          {/* Frontend Card */}
+          <Col xs={12} md={6} className="mb-4 d-flex">
+            <Card className="universal-card h-100 w-100">
+              <Card.Body>
+                <Card.Title>Frontend Technologies</Card.Title>
+                <hr />
+                <Card.Text>
+                  HTML, CSS, Bootstrap CSS, JavaScript, React
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          {/* Backend Card */}
+          <Col xs={12} md={6} className="mb-4 d-flex">
+            <Card className="universal-card h-100 w-100">
+              <Card.Body>
+                <Card.Title>Backend Technologies</Card.Title>
+                <hr />
+                <Card.Text>
+                  Node.js, Express, PostgreSQL, REST API
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
       </div>
-    );
+    </div>
+  );
 }
 
 export default Technologies;
