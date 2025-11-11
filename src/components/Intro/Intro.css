@@ -1,11 +1,14 @@
 /* Intro CSS */
 
 /* #intro {
-    
+  border: 1px black;
+  border-radius: 10px; 
   } */
 
 .intro-description-div {
-  background-color: #282c34;
-  padding: 20px; 
+  background-color: rgba(40, 44, 52, 0.4); /* translucent looks nicer */
+  padding: 20px;
+  border-bottom-left-radius: 10px; /* optional */
+  border-bottom-right-radius: 10px; /* optional */
 }
 

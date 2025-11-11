@@ -1,11 +1,13 @@
 /* Header CSS */
 
 .headerAndIntroBackground {
-    background-image: url("../../images/code-background.jpg"); 
-    background-size: cover; /* This will cover the entire header area */
-    background-position: center; 
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Stack header and intro vertically */
+  background-image: url("../../images/code-background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden; /* keeps corners clean */
   }
   
   .header-container {
