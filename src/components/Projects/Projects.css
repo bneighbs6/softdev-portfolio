@@ -124,18 +124,6 @@
   border: none !important;
 }
 
-/* Universal Card CSS */
-.universal-card {
-  margin: 5px;
-  padding: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* center image horizontally */
-  justify-content: space-between; /* keep content spaced nicely */
-  height: 100%; /* equal height cards */
-  text-align: center;
-}
-
 .rocket-ship {
   font-size: 4rem; /* adjust size as needed */
   display: block;
