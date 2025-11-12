@@ -5,7 +5,7 @@ function Connect() {
     return (
       <div className="connect-container" id="connect">
         <h3>Let's Connect</h3>
-        <p>via Email, LinkedIn, GitHub</p>
+        <h5>via Email, LinkedIn, GitHub</h5>
         <div className="connect-icons">
           <span>
             <a href="mailto:bneighbs6@gmail.com" title="Email">
